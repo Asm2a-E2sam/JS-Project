@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(#6e5dfc,#b473d7);
+    text-align: right;
+}
+
+#logo{
+    padding-right: 20px;
+    padding-top: 30px;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 60px;
+    color: #e3e4e6;
+}
+
+.sura{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 90%;
+    height: 270px;
+}
+
+.nav{
+    padding-right: 20px;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e3e4e6;
+
+}
+
+#book{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    bottom:10%;
+    right: 50%;
+}
+ 
+#hello{
+    position: absolute;
+    right: 30px;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-weight: bold;
+    width: 500px;
+    height: 100px;
+    color: #e3e4e6;
+
+}
+
+input[type=button]{
+    background-color: #ffc478;
+    border-radius: 20%;
+    border-style:inherit;
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-weight: bold;
+    color: #4a54cf;
+}
+section{
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    border: #b473d7;
+    border-radius: 20px;
+    background-color: #e3e4e6;
+    float: left;
+}
+
+.row{
+    width: 49%;
+    height: 60%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#team{
+    position: absolute;
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 30px;
+    right: 10%;
+    font-family: 'Droid Arabic Kufi', serif;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e3e4e6;
+    float: right;
+}
+
+#supplier{
+    width: 50%;
+    padding-top: 20px;
+    float: right;
+}
+
+#iti{
+    position: absolute;
+    padding-top: 20px;
+    left: 10%;
+    width: 200px;
+}
+
+ul{
+    list-style: none;
+}
+
+aside{
+    width: 19%;
+    height: 50%;
+    float: left;
+}
+
+.side{
+    width: 90%;
+    height: 90%;
+}
+
+#footer{
+    float: left;
+    margin-top : 30px;
+    padding: 0;
+    width: 100%;
+    height: 190px;
+    /* c27dfc */
+    background-image: linear-gradient(#c27dfc,#6e5dfc);
+    text-align: right;
+}
+
+#copyright{
+    position: relative;
+    text-align: center;
+    top: 145px;
+}
+
