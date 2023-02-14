@@ -1,0 +1,202 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.logo{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 35px;
+}
+
+header{
+    padding: 10px;
+    color: beige;
+    background-image: linear-gradient(#6e5dfc,#b473d7);
+}
+
+footer{
+   background-image: linear-gradient(#c27dfc,#6e5dfc);
+   color: beige;
+   padding: 10px;
+}
+
+section{
+    background-color: rgb(233, 229, 229);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#book{
+    width: 100%;
+    height: 70%;
+}
+
+.btn:hover{
+    background-color:beige;
+    color:#6e5dfc;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    background-color: beige;
+}
+.side{
+    width: 100%;
+}
+
+#iti{
+    width: 100%;
+}
+
+.sura{
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    #book{
+        width: 100%;
+        height: 60%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #book{
+        width: 100%;
+        height: 60%;
+    }
+}
+
+
+.list-group{
+    font-weight: bold;
+}
+
+/*******************************/
+.bg-success{
+    background-repeat: repeat;
+    background-image: url("e5833e1bea7d379f0f4e4ae250b7cf81.gif");
+    margin: auto;
+    padding-top: 100px;
+  }
+.btn-success{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    width: 150px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin:20px 3%;
+}
+.btn-success:hover {
+
+    color: green;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: scaleX(0);
+    }
+
+    100% {
+      transform: translateX(100);
+    }
+
+}
+
+.bad{
+    padding: 30px;
+    color: beige;
+    font-size: 400%;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    text-align: center;
+    animation: 2s ease-in-out 0s infinite slideInFromLeft;
+}
+
+.image{
+    width: 100%;
+}
+
+.bg-danger{
+    padding-top: 100px;
+    background-color: palevioletred !important;
+}
+
+.btn-danger{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    width: 150px;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin:20px 3%;
+}
+.btn-danger:hover {
+
+    color: rgb(151, 5, 5);
+}
+
+.bg-side{
+    height: 800px;
+    background-image: linear-gradient(45deg, #b473d7, #fa4753);
+    justify-content:space-evenly ;
+}
+
+.h2_sura{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: #c27dfc;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: beige;
+    width: 100%;
+}
+
+ol{
+    color: #3d3586;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: beige;
+    background-color:cornflowerblue;
+    border: beige;
+}
+
+.btn-submit:hover{
+    background-color:#c27dfc;
+}
+
+h3{
+    color: #3d3586;
+}
+.para{
+    font-size: 20px;
+}
+table,tr,td{
+    border: 2px #3d3586 double;
+    font-size: 20px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.fa-house{
+    font-size: 30px;
+    color: #3d3586;
+    padding-left: 20px;
+}

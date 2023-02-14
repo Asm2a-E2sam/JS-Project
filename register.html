@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="title">بيانات الدخول</div>
+    <div class="content">
+      <form id="regist" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">الاسم</span>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">الايميل</span>
+            <input type="email" name="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">العمر </span>
+            <input type="text" name="age" required>
+          </div>
+          <div class="input-box">
+            <span class="details">كلمة المرور</span>
+            <input type="password" name="password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">اعادة كلمة المرور</span>
+            <input type="password" name="confirm_pass" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1" value="male">
+          <input type="radio" name="gender" id="dot-2" value="female">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">ذكر</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">انثي</span>
+          </label>
+          <label></label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="سجل الآن" id="signup" >
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
